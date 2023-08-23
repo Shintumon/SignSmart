@@ -6,7 +6,7 @@ import threading
 from queue import Queue
 import time
 import cv2
-from flask import Flask, render_template, jsonify, Response, request
+from flask import Flask, render_template, jsonify, request
 from flask_socketio import SocketIO
 from flask_cors import CORS
 import numpy as np
